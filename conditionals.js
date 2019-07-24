@@ -1,4 +1,5 @@
-/*const raining = true;
+//Sample 1 (if..)
+const raining = false;
 const cold = true;
 
 if (raining) {
@@ -9,11 +10,12 @@ if (cold) {
   console.log("Make sure you pick out a scarf!");
 }
 
-console.log("Now you're ready to go outside!"); */
+console.log("Now you're ready to go outside!");
+console.log("______________");
 
-//New condition sample
+//Sample 2 (if..else if.. else)
 
-const temperature = -1;
+const temperature = -45;
 
 if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
@@ -24,3 +26,23 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+console.log("______________")
+
+//Sample 3: Logical Operators (&&, ||, !)
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+console.log("______________")
+
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+}
+console.log("______________")
+
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
+console.log("______________")
